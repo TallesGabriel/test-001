@@ -1,0 +1,18 @@
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.glass-card {
+  background: rgba(6, 30, 18, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #02120b 0%, #064e3b 50%, #022c22 100%);
+}
+
+#reader video {
+  object-fit: cover !important;
+  border-radius: 1rem;
+}
